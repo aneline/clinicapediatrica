@@ -1,50 +1,88 @@
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
-}
-
-body {
+  }
+  
+  body {
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.cabecalho {
+  }
+  
+  .cabecalho {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #E6E6FA;
-}
-
-#imagem {
+  }
+  
+  #imagem {
     display: flex;
     margin: 0.5%;
     width: 5%;
     height: 5%;
     align-items: center;
-}
-
-.menu ul {
+  }
+  
+  .menu ul {
     display: flex;
-}
-
-.menu ul li {
+  }
+  
+  .menu ul li {
     list-style: none;
-}
-
-.menu ul li a {
+  }
+  
+  .menu ul li a {
     text-decoration: none;
     padding: 1rem;
     color: black;
     cursor: pointer;
     transition: 150ms;
     margin: 5px;
-}
-
-.menu ul li a:hover {
+  }
+  
+  .menu ul li a:hover {
     background-color: #366a73;
     border-radius: 10px;
     color: rgb(36, 33, 33);
-}
+  }
+  
+  
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .box {
+    margin: auto;
+    color: black;
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-120%, -120%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 60%;
+  }
+  
+  fieldset {
+    border: 3px solid rgb(64, 64, 64);
+    padding: 30px;
+  }
+  
+  legend {
+    background-color: black;
+    padding: 0px;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  .submit:hover {
+    background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19, 195));
+  }
+  
+  .btn {
+    margin-left: 44%;
+  }
 
 
 #imagem1{
